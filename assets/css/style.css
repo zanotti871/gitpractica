@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.imagenFondo{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imgen/imgen-pizza-main.jpg);
+    background-size:cover;
+   
+}
+.container{
+    background-color: black;
+  
+}
+.logo{
+    width: 150px;
+    height: 80px;
+}
+.menu_bar{
+    margin-left: 350px;
+    background-color: rgba(4, 73, 73, 0.322);
+    position: fixed;
+    top: 0;
+}
+
+.menu_bar > ul > li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.menu_bar > ul > li a{
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 170px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+ul li a:hover{
+    background: rgba(61, 63, 30, 0.281);
+    color:rgb(78, 78, 83);
+}
+ul li ul{
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+ul li:hover ul{
+    display: block;
+}
+ul li ul li a{
+    font-size: 12px;
+    text-align: left;
+}
+.subtitulo{
+    margin-top:10px;
+    padding: 10px;
+    color: rgba(243, 241, 239, 0.884);
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    text-align:left;
+}
+
+.cuadro_fondo{
+    margin-left: 10px;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+h3{
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/*Quienes*/
+ .container_Principal{
+    width: 80%;
+    height: 500px;
+    margin-left: 120px;
+    background-color: hsl(38, 66%, 72%);
+}
+
+.subtitulo_1{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 500px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+    text-align:justify;
+    font-family: 'Montserrat', sans-serif; ;
+   
+}
+.parrafo{
+    padding-left: 600px;
+    padding-right: 50px;
+    font-size: 15px;
+    color: white;
+    text-align:justify;
+    font-family:'Montserrat', sans-serif;
+}
+/* Contacto*/
+main{
+    background-color: hsl(38, 93%, 28%);
+}
+.imgen_Contacto{
+    width: 50%;
+    height: 50%;
+    background-size: contain;
+
+}
+form{
+    background-color:hsl(38, 66%, 72%);
+    width: 450px;
+    height: 300px;
+    margin-bottom: 0px;
+    display:inline-block
+}.franquicia{
+    font-size: 30px;
+    margin-top: 0px;
+    color: rgb(5, 5, 7);
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Montserrat', sans-serif; ;
+}
+.ubicacion{
+    margin-top: 0px;
+    margin-left: 500px;
+}
+/* sucursales*/
+section{
+    display:inline-block;
+}
+.tarjeta{
+    width: 320px;
+    border: solid 2px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    display:inline-block;
+    
+}
+.tarjeta__titulo{
+margin-bottom: 8px;
+}
+.tarjeta__desc{
+margin: 10px;
+}
+.btn{
+    display: block;
+    width: 110px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+}
+.tarjeta--colorLetra{
+    color:red;
+}
+/* CARTA*/
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px 20px 25px 30px;
+    padding: 10px 20px 25px 30px;
+    border-top: solid 5px rgb(7, 0, 3);
+    border-right: solid 4px rgb(1, 12, 1);
+    border-bottom: solid 6px rgb(7, 6, 0);
+    border-left: 7px solid rgb(8, 0, 5) 
+}
+.caja img{
+    width: 80%;
+}
+
+footer{
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+.contacto{
+    position: relative;
+    margin-top: 0;
+}
+.logo-footer {
+    padding: 0%;
+    margin-right:300x;
+    text-align: left;
+}
+.submenu{
+    text-decoration: none;
+    display:inline-block;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
